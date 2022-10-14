@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div>ادهم</div>
     <input type="text" v-model="number" @keyup="onNumberWrite" />
   </div>
 </template>

@@ -1,0 +1,11 @@
+/* font face dubai */
+@font-face {
+  font-family: 'Dubai';
+  src: url('/DubaiW23-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Dubai', sans-serif;
+}
