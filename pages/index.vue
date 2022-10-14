@@ -14,14 +14,7 @@ export default {
   }),
   methods: {
     onNumberWrite() {
-      this.number = slugify(this.number, {
-        replacement: '-',
-        remove: undefined,
-        lower: false,
-        strict: false,
-        locale: 'vi',
-        trim: true,
-      })
+      this.number = slugify(this.number)
     },
   },
 }
